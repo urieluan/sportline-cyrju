@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <title>contacto sportline cyrju</title>
+
+  </head>
+<style>
+ body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        .menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .menu li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s;
+        }
+
+        .menu li a:hover {
+            background-color: #ffd700;
+            color: #000000;
+            border-radius: 4px;
+        }
+
+        
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            color: #ffd700;
+            font-size: 1.8rem;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
+            .menu {
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background-color: #000000;
+                padding: 1rem 2rem;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #menu-toggle:checked ~ .menu {
+                display: flex;
+            }
+        }
+   .video-background {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; 
+            overflow: hidden;
+        }
+
+       
+        #miVideo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+           
+      }
+
+    .mi-seccion form {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 25px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: 0 auto;
+           margin-top:20px;
+        }
+        
+        .mi-seccion h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin: 0 0 20px 0;
+        }
+        
+        .mi-seccion label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        
+        .mi-seccion input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .mi-seccion textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        
+        .mi-seccion button {
+            background: #ffd700;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+
+   
+   .mi-dos form {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 25px;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: 20px auto 0;
+    }
+
+    .mi-dos h2 {
+        
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+   .mi-dos label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .mi-dos input[type="text"],
+    .mi-dos input[type="email"],
+    .mi-dos textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .mi-dos textarea {
+        height: 150px;
+        resize: vertical;
+    }
+
+    .mi-dos button {
+        background: #ffd700;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    
+    .mi-dos .radio-group {
+        margin: 15px 0;
+    }
+
+    .mi-dos .radio-option {
+        margin: 8px 0;
+    }
+
+    .mi-dos input[type="radio"] {
+        margin-right: 8px;
+    }
+
+
+
+     .mi-tres form {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 25px;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: 20px auto 0;
+    }
+
+    .mi-tres h2 {
+        
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+  .mi-tres label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .mi-tres input[type="text"],
+    .mi-tres input[type="email"],
+   .mi-tres textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .mi-tres textarea {
+        height: 150px;
+        resize: vertical;
+    }
+
+    .mi-tres button {
+        background: #ffd700;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    
+   .mi-tres .radio-group {
+        margin: 15px 0;
+    }
+
+    .mi-tres .radio-option {
+        margin: 8px 0;
+    }
+
+    .mi-tres input[type="radio"] {
+        margin-right: 8px;
+    }
+
+
+   .mi-cuatro form {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 25px;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: 20px auto 0;
+    }
+
+    .mi-cuatro h2 {
+        
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+  .mi-cuatro label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .mi-cuatro input[type="text"],
+    .mi-cuatro input[type="email"],
+  .mi-cuatro textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .mi-cuatro textarea {
+        height: 150px;
+        resize: vertical;
+    }
+
+    .mi-cuatro button {
+        background: #ffd700;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    
+   .mi-cuatro .radio-group {
+        margin: 15px 0;
+    }
+
+    .mi-cuatro .radio-option {
+        margin: 8px 0;
+    }
+
+    .mi-cuatro input[type="radio"] {
+        margin-right: 8px;
+    }
+
+
+
+
+    .mi-cinco form {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 25px;
+        border-radius: 8px;
+        max-width: 500px;
+        margin: 20px auto 0;
+    }
+
+    .mi-cinco h2 {
+        
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+  .mi-cinco label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+   .mi-cinco input[type="text"],
+    .mi-cinco input[type="email"],
+  .mi-cinco textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .mi-cinco textarea {
+        height: 150px;
+        resize: vertical;
+    }
+
+   .mi-cinco button {
+        background: #ffd700;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    
+   .mi-cinco .radio-group {
+        margin: 15px 0;
+    }
+
+    .mi-cinco .radio-option {
+        margin: 8px 0;
+    }
+
+    .mi-cinco input[type="radio"] {
+        margin-right: 8px;
+    }
+
+
+</style>
+
+
+</head>
+
+<body>
+<nav>
+        <div class="nav-container">
+            <a href="contacto.html" class="logo">C O N T A C T O </a>
+            
+            <input type="checkbox" id="menu-toggle" hidden>
+            <label for="menu-toggle" class="hamburger">☰</label>
+            
+        <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                
+                <li><a href="contacto.html">CONTACTO</a></li>
+                
+                
+            </ul>
+                
+            
+        </div>
+    </nav>
+ <div class="video-background">
+        <video autoplay muted loop id="miVideo"> 
+            <source src="videos/video 4.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+       <section class="mi-seccion">
+
+      <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+        <h2>DESCRIVENOS TU PROBLEMA</h2>
+        
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="problema">Descripción del problema:</label>
+        <textarea id="problema" name="problema" required></textarea>
+        
+        <button type="submit">Enviar </button>
+    </form>
+
+   </section>
+
+
+     <section class="mi-dos">
+
+    <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+            <h2> Que te parecio el servicio de Instalacion y configuracion de software</h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>Calificación del servicio:</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo">Malo</label><br>
+            
+            <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Intermedio</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br><br>
+            
+            <label for="problema">En  que podemos mejorar:</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+     <section class="mi-tres">
+
+
+       <form method="post" action="josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+            <h2> Que te parecio el servicio de  Diagnostico y solucion de problemas de hardware</h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>Calificación del servicio:</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo">Malo</label><br>
+            
+            <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Intermedio</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br><br>
+            
+            <label for="problema">En  que podemos mejorar:</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+
+
+     </section>
+
+
+    <section class="mi-cuatro">
+
+
+       <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+            <h2> Que te parecio el servicio de Proteccion contra virus y malware</h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>Calificación del servicio:</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo">Malo</label><br>
+            
+            <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Intermedio</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br><br>
+            
+            <label for="problema">En  que podemos mejorar:</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+
+
+     </section>
+
+
+
+    <section class="mi-cinco">
+
+
+       <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+            <h2> Que te parecio el servicio de Mejora del rendimiento del sistema</h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>Calificación del servicio:</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo">Malo</label><br>
+            
+            <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Intermedio</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br><br>
+            
+            <label for="problema">En  que podemos mejorar:</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+
+
+     </section>
+
+
+
+   <section class="mi-cinco">
+
+
+       <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+            <h2> Que te parecio el servicio de Configuracion y problemas de red</h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>Calificación del servicio:</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo">Malo</label><br>
+            
+            <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Intermedio</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br><br>
+            
+            <label for="problema">En  que podemos mejorar:</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+      </section>
+
+
+      <section class="mi-cinco">
+
+
+       <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+            <h2> Que te parecio el servicio en general de nuestros acesores</h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>Calificación del servicio:</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo">Malo</label><br>
+            
+            <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Intermedio</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br><br>
+            
+            <label for="problema">En  que podemos mejorar:</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+
+      <section class="mi-cinco">
+
+
+       <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+            <h2> Que te parecio el servicio de Acceso remoto mediante TeamViewer</h2>
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label>Calificación del servicio:</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo" required>
+            <label for="malo">Malo</label><br>
+            
+            <input type="radio" id="intermedio" name="calificacion" value="intermedio">
+            <label for="intermedio">Intermedio</label><br>
+            
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br><br>
+            
+            <label for="problema">En  que podemos mejorar:</label><br>
+            <textarea id="problema" name="problema" required></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+
+
+
+     
+       <section class="mi-seccion">
+
+      <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+        <h2>Mencionanos los problemas mas comunes por los que acudes con nosotros</h2>
+        
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="problema">Descripción del problema:</label>
+        <textarea id="problema" name="problema" required></textarea>
+        
+        <button type="submit">Enviar </button>
+    </form>
+
+   </section>
+
+    <section class="mi-seccion">
+
+      <form method="post" action="mailto:josearriaga29@cecyteslp.edu.mx?subject=Reporte de Problema" enctype="text/plain">
+        <h2>En que  podemos mejorar para mejorar la estructura y precentacion de la pagina web</h2>
+        
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="problema">Que nos recomiendas:</label>
+        <textarea id="problema" name="problema" required></textarea>
+        
+        <button type="submit">Enviar </button>
+    </form>
+
+   </section>
+
+
+
+
+
+
+    
+
+      
+</body>
+   
+</body>
+
+</html>

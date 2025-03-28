@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <title>SPORTLINE CYRJU</title>
+</head>
+
+<style>
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+            
+        }
+
+           nav {
+            background-color: #000000;
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        .menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .menu li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s;
+        }
+
+        .menu li a:hover {
+            background-color: #ffd700;
+            color: #000000;
+            border-radius: 4px;
+        }
+
+        
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            color: #ffd700;
+            font-size: 1.8rem;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
+            .menu {
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background-color: #000000;
+                padding: 1rem 2rem;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #menu-toggle:checked ~ .menu {
+                display: flex;
+            }
+        }
+ 
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; 
+            overflow: hidden;        }
+
+       
+        #miVideo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+}
+
+     .texto-central{
+                   position:absolute;
+                   top:50%;
+                   left:50%;
+                   transform: translate(-50%,-50%);
+                   displey: flex;
+                   flex-direction: column;
+                   align-items: center;
+                    text-align:center;
+                   color:white;
+                    }
+                   
+                   
+       
+             .texto-central img{
+                 width:250px;
+                 height:100px;
+                 }
+
+             
+ 
+      .bienvenidos h1{
+                      letter-spacing:8px;
+                 background-color: #ffd700;
+                  margin-top:630px;
+                  text-align:center;
+                  padding:20px;
+                    
+                  }
+
+    .bienvenidos p{
+
+                                   font-size:20px;
+                                   padding:30px;
+                                   text-align:justify;
+                                      color:white;
+                                   }
+
+    
+         
+             
+                 .bienvenidos img{
+                     width:500px;
+                     float:right;
+                     height:400px;
+                      margin-top:0px;
+                     padding:2em;
+                     
+                      }
+
+    .elegirnos h1{
+                      letter-spacing:8px;
+                 background-color: #ffd700;
+                  margin-top:30pxpx;
+                  text-align:center;
+                  padding:20px;
+                  }
+
+
+
+  .elegirnos p{
+
+                                   font-size:20px;
+                                   padding:30px;
+                                   text-align:justify;
+                                     color:white;
+                                   }
+
+
+       .elegirnos img{
+                     width:500px;
+                     float:right;
+                     height:400px;
+                      margin-top:0px;
+                     padding:2em;
+                     
+                      }
+
+  .lograr h1{
+                      letter-spacing:8px;
+                 background-color: #ffd700;
+                  margin-top:30pxpx;
+                  text-align:center;
+                  padding:20px;
+                 
+                  }
+
+      .lograr  img{
+                     width:500px;
+                     float:right;
+                     height:550px;
+                      margin-top:0px;
+                     padding:2em;
+                     
+                      }
+
+
+   .lograr h2{
+                      letter-spacing:8px;
+                
+                  margin-top:10pxpx;
+                  text-align:justify;
+                  padding:20px;
+                 color:white;
+                  }
+
+
+     .lograr p{
+
+                                   font-size:20px;
+                                    padding:20px;
+                                   text-align:justify;
+                                     color:white;
+                                   }
+
+
+   .lograr video{
+                 width:600px;
+                 height:400px;
+                 margin-top:50px;
+                  margin-left:400px;
+                   background-color: #ffd700;
+                 }
+                
+
+
+    
+
+
+
+
+                     
+ 
+
+ 
+   
+
+</style>
+
+
+
+<body>
+<nav>
+        <div class="nav-container">
+        
+           
+            <a href="index.html" class="logo">C Y R J U</a>
+            
+              
+           
+            <input type="checkbox" id="menu-toggle" hidden>
+            <label for="menu-toggle" class="hamburger">☰</label>
+            
+            <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                
+                <li><a href="contacto.html">CONTACTO</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+       
+    <div class="video-background">
+        <video autoplay muted loop id="miVideo"> 
+            <source src="videos/video 4.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+
+
+
+    <div class="texto-central">
+       <h1>CONECTA TU MUNDO Y AMPLIA TUS POSIBILIDADES</h1>
+       
+         
+     </div>
+
+   
+
+    <section class="bienvenidos">
+
+    <h1>SPORTLINE CYRJU</h1>
+
+   <img src="imagenes/imagen2.jpg">
+
+ <p>En Sportline Cyrju estamos comprometidos con brindarte el mejor soporte técnico a distancia, para que puedas resolver cualquier problema tecnológico de manera rápida y eficaz, sin importar dónde te encuentres. Sabemos lo importante que es para ti mantener tus dispositivos funcionando de manera óptima, ya sea en casa, en la oficina o mientras estás en movimiento.
+Nuestro equipo de expertos está aquí para ofrecerte soluciones personalizadas y adaptadas a tus necesidades. Desde la resolución de problemas con software y hardware, hasta la optimización de tus sistemas, estamos preparados para garantizar tu tranquilidad tecnológica. Lo mejor de todo es que lo hacemos de forma remota, para que no tengas que preocuparte por desplazamientos o tiempos de espera largos.
+En esta página encontrarás toda la información necesaria sobre nuestros servicios y formas de contacto. Además, te brindamos recursos útiles y guías prácticas que te ayudarán a mejorar el desempeño de tus dispositivos.
+Explora todo lo que tenemos para ofrecerte y descubre por qué Sportline Cyrju es la mejor opción para tu soporte técnico a distancia. ¡Gracias por confiar en nosotros! Estamos aquí para hacer tu vida más sencilla y eficiente</p>
+
+
+
+   </section>
+
+
+    
+    <section class="elegirnos">
+
+   <h1>POR QUE ELEGIRNOS</h1>
+
+  <img src="imagenes/imagen23.jpeg">
+
+  
+
+    <p>Sportline CYRJU destaca como una opción ideal para soporte técnico a distancia por su compromiso con la calidad, rapidez y atención personalizada. Los usuarios eligen nuestra empresa porque entendemos que cada cliente tiene necesidades únicas, y nos esforzamos por ofrecer soluciones adaptadas a cada situación.</br>
+Primero, nuestro equipo está compuesto por técnicos altamente capacitados, con experiencia en resolver problemas técnicos complejos de manera eficiente y precisa. Gracias a nuestro enfoque profesional, garantizamos que el cliente reciba respuestas claras y directas, evitando demoras innecesarias.</br>
+En segundo lugar, contamos con tecnología de punta que nos permite diagnosticar y solucionar problemas de forma remota, ahorrando tiempo y costos para nuestros usuarios. Ya sea un incidente menor o una complicación mayor, nuestra plataforma asegura que el proceso sea fluido y confiable.</br>
+Además, nuestro servicio de atención al cliente se distingue por su amabilidad y disponibilidad. Estamos aquí para nuestros clientes las 24 horas del día, los 7 días de la semana, ofreciendo tranquilidad y confianza al saber que siempre habrá alguien dispuesto a ayudar.
+
+
+
+      </section>
+
+
+     <section class="lograr">
+
+
+    <h1>QUE QUEREMOS LOGRAR</h1>
+
+
+   <img src="imagenes/imagen24.jpg">
+
+  <h2>OBJETIVOS GENERALES</h2>
+
+
+
+  <p>Brindar soporte técnico remoto que combine rapidez, eficiencia y atención personalizada, asegurando que los sistemas de los clientes funcionen de manera óptima, minimizando interrupciones y maximizando su productividad en cada interacción con nuestra empresa.</br></br>
+ Consolidar la posición de liderazgo en el mercado de soporte técnico a distancia mediante la implementación de servicios innovadores y de alta calidad, fortaleciendo la confianza y fidelidad de nuestros clientes actuales y atrayendo nuevos usuarios constantemente.</p>
+   
+  
+    <h2>OBJETIVOS PARTIULARES</h2>
+
+   <P>Diseñar herramientas tecnológicas avanzadas que agilicen el proceso de diagnóstico y resolución remota de problemas, ofreciendo un servicio preciso y eficaz, adaptado a las necesidades específicas de cada cliente en tiempo récord.</br></br>
+   Implementar programas continuos de capacitación y desarrollo para nuestro equipo técnico, asegurando que cuenten con los conocimientos más actualizados del sector y puedan afrontar cualquier desafío técnico con profesionalismo y éxito.</P>
+
+
+   <video controls>
+   <source src="videos/video2.mp4"type="video/mp4">
+   </video>
+
+  </section>
+
+
+
+</body>
+</html>
+   

@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <title>servicios sportline cyrju</title>
+
+   </head>
+<style>
+* {margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+            
+        }
+
+         nav {
+            background-color: #000000;
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        .menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .menu li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s;
+        }
+
+        .menu li a:hover {
+            background-color: #ffd700;
+            color: #000000;
+            border-radius: 4px;
+        }
+
+        
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            color: #ffd700;
+            font-size: 1.8rem;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
+            .menu {
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background-color: #000000;
+                padding: 1rem 2rem;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #menu-toggle:checked ~ .menu {
+                display: flex;
+            }
+        }
+   .video-background {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; 
+            overflow: hidden;
+        }
+
+       
+        #miVideo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+           
+      }
+
+      header{
+             padding:20px;
+             text-align:center;          
+                  }
+                   
+                   
+       header h1{
+                 
+                 letter-spacing:8px;
+                 background-color: #ffd700;
+                      }
+                   
+                   
+       header h1{
+                 
+                 letter-spacing:8px;
+                 background-color: #ffd700;
+             
+                }
+             
+        
+
+           .mi-seccion h1{
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700;
+             
+              }
+         
+             
+                 .mi-seccion img{
+                     width:500px;
+                     float:right;
+                     height:365px;
+                      margin-top:45px;
+                     padding:2em;
+                   
+                     
+                      }
+                     
+           
+                            
+               
+           .seccion-roja h1{
+                            
+                            margin-top:20px;
+                            padding:10px;
+                            letter-spacing:5px;
+                            font-size:30px;
+                            background-color: #ffd700;
+                             }
+                 
+                   .seccion-roja p{
+                                   font-size:20px;
+                                   padding:15px;
+                                   text-align:justify;
+                                   color:white;
+                                   }
+
+    .seccion-roja img{
+                     margin-top:20px;
+                     float:right;
+                     padding-right:5px;
+                     height:400px;
+                     width:400px;
+                      margin-left:20px
+                      }
+ 
+   .seccion-diagnostico h1{
+             margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             } 
+
+             .seccion-diagnostico P{
+                                  font-size:20px;
+                                   padding:15px;
+                                   text-align:justify;
+                                   color:white;
+                                   }
+                                   
+
+             .seccion-diagnostico img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:430px;
+                                       width:400px;
+                                       }
+                                     
+
+            .seccion-proteccion h1{
+             margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             } 
+
+            .seccion-proteccion p{
+                                  font-size:20px;
+                                    margin-left:20px;
+                                   text-align:justify;
+                                   color:white;
+                                   }
+
+             .seccion-proteccion img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:400px;
+                                       width:400px;
+                                       }
+
+           .seccion-proteccion table td img{
+                                          height:120px;
+                                       width:120px;
+                                      margin-right:25px;
+                                      margin-bottom:10px; 
+                                      } 
+
+         .seccion-mejora h1{
+             margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }   
+
+
+    .seccion-mejora p{
+                       font-size:20px;
+                        margin-left:20px;
+                        text-align:justify;
+                        color:white;           
+                                   }  
+
+
+    .seccion-mejora img{ 
+                        margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:300px;
+                                       width:400px;
+                                       }
+
+
+    .mi-red h1{
+               margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+
+
+       .mi-red p{
+                    font-size:20px;
+                      
+                        text-align:justify;
+                         color:white;
+                          padding:15px;          
+                                   } 
+        .mi-red img{
+                                      margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:300px;
+                                       width:400px;
+                                       }
+
+       .seccion-recuperaion h1{
+               margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+
+      .seccion-recuperaion p{
+                    font-size:20px;
+                      
+                        text-align:justify;
+                         color:white; 
+                         padding:15px;         
+                                   }
+
+
+         .seccion-recuperaion img{  margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:300px;
+                                       width:250px;
+                                       }
+
+               .seccion-recuperaion table td img{
+                                          height:120px;
+                                       width:120px;
+                                      margin-right:25px;
+                                      margin-bottom:10px; 
+                                      }                     
+              .seccion-correo h1{
+             margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+ 
+             .seccion-correo p{
+                               font-size:20px;
+                       
+                        text-align:justify;
+                         color:white; 
+                        padding:15px;         
+                                   }
+
+     .seccion-correo img{
+                        margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:300px;
+                                       width:250px;
+                                       }
+                      
+
+
+           .seccion-gestion h1{
+                               margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+ 
+   .seccion-gestion p{
+                               font-size:20px;
+                      
+                        text-align:justify;
+                         color:white; 
+                         padding:15px;         
+                                   }
+
+       .seccion-gestion img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:360px;
+                                       width:300px;
+                                       } 
+
+        .seccion-dispositivos h1{
+                               margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+       .seccion-dispositivos p{
+                              
+                               font-size:20px;
+                      
+                        text-align:justify;
+                          color:white;  
+                          padding:15px;       
+                                   }
+   
+         
+   .seccion-dispositivos img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:470px;
+                                       width:300px;
+                                       } 
+
+
+
+      .seccion-oficina h1{
+                               margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+ 
+   .seccion-oficina p{
+                          
+                       font-size:20px;
+                      
+                        text-align:justify;
+                         color:white;   
+                          padding:15px;       
+                                   }
+
+
+
+    .seccion-oficina img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:250px;
+                                       width:300px;
+                                       } 
+
+    .seccion-controladores h1{ margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+
+     
+    .seccion-controladores p{
+                             
+                          
+                       font-size:20px;
+                      
+                        text-align:justify;
+                         color:white;  
+                        padding:15px;        
+                                   }
+
+
+                                      .seccion-controladores img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:440px;
+                                       width:400px;
+                                       }
+
+            .seccion-controladores table td img{
+                                          height:120px;
+                                       width:120px;
+                                      margin-right:25px;
+                                      margin-bottom:10px; 
+                                      } 
+
+
+
+
+           .seccion-copias h1{ margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+
+      .seccion-copias p{
+                             
+                          
+                       font-size:20px;
+                       
+                        text-align:justify;
+                         color:white; 
+                         padding:15px;          
+                                   }
+
+
+        .seccion-copias img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:445px;
+                                       width:400px;
+                                       }
+
+
+     .seccion-copias table td img{
+                                          height:120px;
+                                       width:120px;
+                                      margin-right:25px;
+                                      margin-bottom:10px; 
+                                      } 
+
+
+    .seccion-Team h1{ margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+
+     .seccion-Team p{
+                             
+                          
+                       font-size:20px;
+                       padding:15px; 
+                        text-align:justify;
+                         color:white;          
+                                   }
+
+      .seccion-Team img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:510px;
+                                       width:400px;
+                                       }
+
+            .seccion-Team table td img{
+                                          height:120px;
+                                       width:120px;
+                                      margin-right:25px;
+                                      margin-bottom:10px; 
+                                      } 
+
+         .seccion-Capacitacion h1{ margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+
+
+      .seccion-Capacitacion p{
+                             
+                          
+                       font-size:20px;
+                        padding:15px; 
+                        text-align:justify;
+                         color:white;          
+                                   }
+
+
+     
+          .seccion-Capacitacion img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:380px;
+                                       width:400px;
+                                       }
+
+
+
+      .seccion-acesores h1{ margin-top:20px;
+             padding:10px;
+             letter-spacing:2px;
+             font-size:30px;
+              background-color: #ffd700; 
+             }
+
+  .seccion-acesores  p{
+                             
+                          
+                       font-size:20px;
+                       margin-top:20px;
+                        text-align:justify;
+                         color:white;
+                       margin-left:20px;          
+                                   }
+
+        .seccion-acesores img{
+                                       margin-top:20px;
+                                       margin-left:20px;
+                                       float:right;
+                                       padding-right:5px;
+                                       height:400px;
+                                       width:550px;
+                                       }
+
+       
+
+
+
+
+
+    
+
+        
+</style>
+
+
+</head>
+
+<body>
+<nav>
+        <div class="nav-container">
+            <a href="servicios.html" class="logo">S E R V I C O S </a>
+            
+            <input type="checkbox" id="menu-toggle" hidden>
+            <label for="menu-toggle" class="hamburger">☰</label>
+            
+        <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                
+                <li><a href="contacto.html">CONTACTO</a></li>
+                
+                
+            </ul>
+                
+            
+        </div>
+    </nav>
+
+
+
+   <div class="video-background">
+        <video autoplay muted loop id="miVideo"> 
+            <source src="videos\video 4.mp4"type="video/mp4">
+        </video>
+    </div>
+
+ <header>
+ <h1>SERVICIOS DISPONIBLES</h1>
+ </header>
+
+     <section class="mi-seccion">
+    
+ <img src="imagenes\imagen1.png.jpeg"/> 
+  <h1>Asistencia remota</h1>
+  <p style="font-size:20px;padding:15px;text-align:justify;color:white;"><q>Asistencia Remota:</q> En un mundo donde el tiempo vale más que el oro y la tecnología se ha convertido en nuestra aliada inseparable,<b> ¿te imaginas resolver problemas informáticos sin mover un solo pie fuera de casa o interrumpir la marcha de tu jornada laboral?</b> Ahora, con nuestra Asistencia Remota, esa visión se vuelve una realidad práctica y accesible.
+
+Ya sea que <i>enfrentes un inconveniente técnico urgente o simplemente busques optimizar el rendimiento de tus dispositivos,</i> nuestra solución está diseñada para brindarte ayuda inmediata, sin importar dónde te encuentres. Desde la comodidad de tu hogar, oficina o incluso en movimiento, puedes contar con un servicio rápido, seguro y efectivo que elimina las barreras de tiempo y distancia
+   </p>
+    
+    <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+         <td colspan="4"align="center "><b>TE OFRECEMOS<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Seguridad:</td>
+           <td align="center">Velocidad:</td>
+          <td align="center">Flexivilidad:</td>
+          <td align="center">Accesibilidad:</td>
+          
+      </tr>
+      <tr>
+           <td align="justify">proteccion contra daños, riesgos, daños o amenazas</td>
+           <td align="justify">Capacidad de realizar el servico lomas rapido posible</td>
+          <td align="justify">Nos adaptamos a cualquier problema o situacion</td>
+          <td align="justify">Disponibles los 365 dias del año</td>
+   
+          </table>
+           
+     
+      </section>
+ 
+
+
+    <section class="seccion-roja">
+       
+      <h1>Instalacion y configuracion de software </h1>
+ 
+
+     <img src="imagenes\imagen3.jpg"/>
+       
+        <p> <i>Ofrecemos un servicio profesional en el cual te podemos guiar en la instalación y configuración de software</i> <q>para garantizar que tus programas y sistemas operativos funcionen</q> de manera óptima y segura. Asi como instalar software básico o especializado, configurar preferencias personalizadas, actualizar controladores y resolver conflictos de compatibilidad. Además, ayudamos con la activación de licencias, migración de datos y soporte post-instalación. Nuestro equipo de expertos trabaja de manera remota para ahorrarte tiempo y esfuerzo, adaptándose a tus necesidades específicas. Confía en nosotros para simplificar tu experiencia tecnológica y maximizar el rendimiento de tus herramientas digitales. ¡Hacemos que la tecnología trabaje para ti!
+        </p>
+      
+
+<table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>TE OFRECEMOS ESTE SERVICIO PARA<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Windows:</td>
+           <td align="center">MacOS:</td>
+          <td align="center">Linux:</td>
+          <td align="center">Android:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">Desarrollado por Microsoft, es uno de los sistemas operativos más populares para computadoras personales y de oficina. Su interfaz amigable y su compatibilidad con una amplia variedad de software lo hacen ideal para usuarios generales y empresas.</td>
+           <td align="center">Creado por Apple, este sistema operativo es exclusivo para los dispositivos Mac. Se caracteriza por su diseño elegante, seguridad robusta y perfecta integración con otros productos Apple como iPhone y iPad.</td>
+          <td align="center">Un sistema operativo de código abierto, conocido por su estabilidad, flexibilidad y personalización. Es ampliamente utilizado en servidores, desarrolladores y entusiastas tecnológicos debido a su libertad y adaptabilidad.</td>
+          <td align="center">Desarrollado por Google, es el sistema operativo líder para dispositivos móviles. Su flexibilidad permite a los fabricantes personalizarlo y se utiliza en una amplia gama de smartphones y tablets.</td>
+   
+          </table>
+
+        
+       </section>  
+     
+        <section class="seccion-diagnostico">    
+        
+
+         <h1>Diagnostico y solucion de problemas de hardware</h1>   
+       
+          <img src="imagenes\imagen4.jpeg"/>  
+        
+           <p><b>¿Tienes un problema con el hardware de tu computadora</b> y no sabes por dónde empezar? No te preocupes, nuestro servicio está aquí para guiarte paso a paso. Nos especializamos en ayudarte a resolver problemas pequeños, como configuraciones incorrectas, cables mal conectados o dispositivos que no responden. Juntos, identificaremos el fallo y te explicaremos con claridad cómo solucionarlo, usando términos sencillos y fáciles de entender. Nuestro objetivo es que tú mismo logres resolver el inconveniente con nuestra orientación, de manera rápida y eficiente. ¡No hay problema pequeño cuando se trata de mantener tus equipos en óptimas condiciones!</p>
+         
+
+           <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>EJEMPLOS EN LOS QUE PODEMOS ORIENTARTE<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Problemas de conexion de perifericos:</td>
+           <td align="center">Pantalla negra negra al encender la computdora:</td>
+          <td align="center">Fallas en el disco duro:</td>
+          <td align="center">Ventilador ruidoso o calentamiento:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">El problema de conexión de periféricos ocurre cuando dispositivos externos como teclados, ratones o impresoras no responden. Las causas comunes incluyen controladores desactualizados, cables dañados o puertos defectuosos, afectando el rendimiento y la interacción eficiente con el equipo.</td>
+           <td align="center">El problema de pantalla negra al encender el equipo ocurre cuando no se muestra imagen. Esto puede deberse a cables de video desconectados, fallos en el monitor o ausencia de corriente eléctrica, afectando completamente su funcionalidad..</td>
+          <td align="center">El problema de pantalla negra al encender el equipo ocurre cuando no se muestra imagen. Esto puede deberse a cables de video desconectados, fallos en el monitor o ausencia de corriente eléctrica, afectando completamente su funcionalidad..</td>
+          <td align="center">El problema de pantalla negra al encender el equipo ocurre cuando no se muestra imagen. Esto puede deberse a cables de video desconectados, fallos en el monitor o ausencia de corriente eléctrica, afectando completamente su funcionalidad..</td>
+   
+          </table>
+
+         </section> 
+ 
+        <section class="seccion-proteccion">
+ 
+
+        <h1>Proteccion contra virus y malware</h1>
+
+       <img src="imagenes\imagen5.jpeg"/> 
+
+     <li><p>En nuestro servicio, entendemos lo importante que es para ti mantener tu equipo protegido contra amenazas como virus y malware. Por eso, ofrecemos una guía personalizada que te ayudará a proteger tu computadora y tus datos de manera eficaz.</li></p>
+
+<li><p>Nuestro objetivo es que comprendas y apliques medidas prácticas para prevenir infecciones. Te orientamos paso a paso en el proceso de instalación de programas antivirus confiables, asegurándonos de que las configuraciones estén optimizadas para tu seguridad. Además, te mostramos cómo realizar análisis periódicos y detectar comportamientos sospechosos que puedan comprometer tu sistema.</li></p>
+
+<li><p>También te ayudamos a implementar herramientas adicionales, como cortafuegos, que refuerzan la defensa de tu equipo contra posibles ataques. Si ya has sido afectado por malware, no te preocupes. Te acompañaremos en la identificación del problema y te daremos las instrucciones necesarias para eliminar las amenazas, restaurando la funcionalidad de tu computadora.</li></p>
+
+ <li><p>Lo mejor es que todo esto lo hacemos de manera clara y sencilla, usando un lenguaje que puedas entender y siguiendo tus propios tiempos. Con nuestra ayuda, tendrás la tranquilidad de saber que tu equipo está protegido y que estás preparado para evitar futuros problemas. ¡Porque tu seguridad digital es nuestra prioridad!</li></p>
+
+<li><p>Para adquirir el software dirigete a <a href="https://mx.norton.com/products/small-business?om_sem_cid=hho_sem_sy:~es-mx_nor_nsb_sch_brn_mmt_nfr_bng_dtp_low:smb~c_kw0000300190_b&gclid=7f427ce85dc11ff2e05a1b32882536dc&gclsrc=3p.ds&msclkid=7f427ce85dc11ff2e05a1b32882536dc ">Norton</a></p></li>
+
+
+        
+           <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          
+      
+          <td colspan="4"align="center "><b>NUESTRO PROVEDOR<b></td>    
+     </tr>
+     <tr>
+           
+           <td align="center">software:</td>
+           <td align="center">Descripcion:</td>
+          <td align="center">caracteristicas:</td>
+          <td align="center">Precio calidad:</td>
+          
+      </tr>
+      <tr>
+           <td align="center"><img src="imagenes\imagen6.jpg"/> </td>
+           <td align="center">Norton es un software de seguridad cibernética diseñado para proteger dispositivos contra virus, malware y amenazas en línea. Ofrece herramientas como protección en tiempo real, cortafuegos, gestión de contraseñas y monitoreo de identidad. Con características avanzadas, Norton asegura la privacidad del usuario mientras navega y garantiza la seguridad de los datos personales y financieros..</td>
+          <td align="center">Norton es un software de seguridad cibernética diseñado para proteger dispositivos contra virus, malware y amenazas en línea. Ofrece herramientas como protección en tiempo real, cortafuegos, gestión de contraseñas y monitoreo de identidad. Con características avanzadas, Norton asegura la privacidad del usuario mientras navega y garantiza la seguridad de los datos personales y financieros.</td>
+          <td align="center">Norton ofrece protección avanzada para tus dispositivos. Entre sus ventajas destacan el análisis en tiempo real, la protección de datos personales y financieros, y su facilidad de uso. Los precios varían según el plan, comenzando desde $39.99 USD al año. Su relación precio-calidad es favorable gracias a su confiabilidad y características completas.</td>
+   
+          </table>
+      
+
+  </section>  
+
+
+   <section class="seccion-mejora">
+  <h1>Mejora del rendimiento del sistema</h1>
+
+ <img src="imagenes\imagen7.jpeg"/>
+
+        <li><p>Mejora del Rendimiento del Sistema
+<b>Es un servicio diseñado para optimizar el funcionamiento general de un equipo. Esto incluye eliminar archivos innecesaciones del sistema, deshabilitar procesos innecesarios y mejorar la velocidad de inicio. El objetivo es maximizar el rendimiento, reducir tiempos de carga y prolongar la vida útil del dispositivo, garantizando una experiencia más fluida y eficiente.</b> </li></p>
+
+<li><p>Identificación de procesos que consumen recursos
+Este servicio analiza las aplicaciones y procesos que consumen excesiva memoria o CPU. Identifica los responsables de la ralentización del equipo para deshabilitarlos o ajustarlos. Esto libera recursos del sistema y mejora la rapidez, asegurando un mejor desempeño general al usuario.
+</li></p>
+
+<li><p>Optimiza el uso de recursos al liberar RAM y ajustar el uso del procesador. Reduce el sobrecargado de tareas para un rendimiento fluido, ideal para tareas cotidianas y exigentes, mejorando la experiencia informática y alargando la vida útil del equipo.</li></p>
+ 
+
+  
+     
+   <audio controls>
+  <source src="Audios/Audio1.mp3" >
+   </audio>
+
+ <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>EJEMPLOS EN LOS QUE PODEMOS ORIENTARTE<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Arranque lento del pc:</td>
+           <td align="center">Espacio en disco insuficiente:</td>
+          <td align="center">Errores en el registro del sistema:</td>
+          <td align="center">Cuelges y lentitud durante tareas especificas:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">El arranque lento del PC ocurre cuando programas innecesarios se cargan al iniciar, saturando recursos del sistema. Esto puede deberse a controladores desactualizados, almacenamiento lleno o archivos corruptos en el registro. Como resultado, el inicio del sistema se prolonga, afectando la productividad y generando frustración para el usuario. Optimizarlo es clave..</td>
+           <td align="center">El problema de espacio en disco insuficiente ocurre cuando el almacenamiento de tu computadora está lleno o casi lleno. Esto puede deberse a acumulación de archivos temporales, caché, descargas innecesarias o aplicaciones que ocupan mucho espacio. Como resultado, el sistema se vuelve lento, afecta el rendimiento y limita la capacidad para guardar archivos nuevos o instalar actualizaciones. La solución incluye eliminar archivos no esenciales, desinstalar programas no utilizados y usar herramientas como Glary Utilities o el Liberador de Espacio en Disco de Windows para optimizar...</td>
+          <td align="center">Los errores en el registro del sistema ocurren cuando las entradas en esta base de datos crucial de Windows se corrompen o quedan obsoletas. Esto puede suceder debido a instalaciones o desinstalaciones incompletas de programas, infecciones de malware o cambios manuales incorrectos. Estos errores pueden ralentizar el sistema, provocar cuelgues o dificultar el funcionamiento de ciertas aplicaciones. Para solucionarlos, se pueden utilizar herramientas como Glary Utilities o CCleaner, las cuales analizan y reparan estas entradas defectuosas de forma segura.</td>
+          <td align="center">La lentitud y los cuelgues durante tareas específicas suceden cuando procesos en segundo plano, consumo excesivo de RAM o controladores desactualizados sobrecargan el sistema. También influyen el sobrecalentamiento o software incompatible. Optimizar recursos, cerrar aplicaciones innecesarias y actualizar controladores son soluciones clave para mejorar el rendimiento y la estabilidad..</td>
+   
+          </table>
+  
+
+
+        </section> 
+
+   
+   <section class="mi-red">
+
+    <h1>Configuracion y problemas de red</h1>
+
+     <img src="imagenes\imagen8.png"/> 
+
+   <p><b> El servicio de configuración y resolución de problemas de red</b>  es esencial para establecer y mantener una conectividad óptima entre dispositivos y sistemas en una infraestructura informática. Abarca la configuración de componentes como routers, switches, puntos de acceso inalámbricos, redes privadas virtuales (VPN) y servidores, asegurando que cada elemento esté correctamente integrado y funcione de manera segura y eficiente. Además, se encarga de definir parámetros como direcciones IP, protocolos de comunicación y ajustes de seguridad.
+
+En cuanto a la resolución de problemas, el servicio se enfoca en identificar y corregir fallos que puedan afectar el rendimiento de la red. Esto incluye resolver conflictos de direcciones IP, errores en la configuración de dispositivos, problemas de cableado, interrupciones de conexión y amenazas de seguridad, como accesos no autorizados o ataques cibernéticos. Se utilizan herramientas de diagnóstico y monitoreo para localizar el origen de los problemas y aplicar soluciones específicas.
+
+Este servicio es crucial tanto en entornos domésticos como empresariales. En hogares, garantiza que dispositivos como computadoras y teléfonos funcionen sin interrupciones. En empresas, asegura la continuidad operativa y mejora la comunicación interna y el acceso a recursos como servidores y aplicaciones en la nube, optimizando así la productividad y la estabilidad de la red.</p>
+
+    <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>EJEMPLOS EN LOS QUE PODEMOS ORIENTARTE<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Conexion a internet intermitente o lenta:</td>
+           <td align="center">Conflictos de direccion IP:</td>
+          <td align="center">Fallas en dispositivos de red :</td>
+          <td align="center">Problemas de seguridad en la red:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">La conexión a Internet lenta ocurre cuando la velocidad de transferencia de datos disminuye, afectando la navegación, descargas o transmisión en línea. Puede deberse a interferencias en la señal, sobrecarga de usuarios, configuraciones incorrectas, problemas en el proveedor de servicio o limitaciones del hardware, como routers o cables defectuosos.</td>
+          <td align="center">Los conflictos de direcciones IP ocurren cuando dos dispositivos en una red intentan usar la misma dirección IP, lo que genera interrupciones en la conectividad y problemas de comunicación. Esto puede deberse a configuraciones manuales erróneas, asignación automática incorrecta por el servidor DHCP, o dispositivos previamente conectados que mantienen direcciones IP no liberadas..</td>
+          <td align="center">Las fallas en dispositivos de red ocurren cuando equipos como routers, switches, puntos de acceso o módems no funcionan correctamente. Pueden deberse a configuraciones erróneas, daños físicos, firmware desactualizado o incompatibilidad con otros dispositivos en la red. Estas fallas afectan la conectividad, provocando interrupciones o rendimiento lento, y requieren diagnóstico técnico para su solución..</td>
+          <td align="center">Los problemas de seguridad en la red surgen cuando la infraestructura es vulnerable a accesos no autorizados, ataques cibernéticos, malware o espionaje de datos. Estos problemas pueden deberse a configuraciones débiles, contraseñas inseguras o software desactualizado. Las consecuencias incluyen pérdida de información, interrupciones en la red y riesgos para la privacidad, requiriendo medidas como firewalls, encriptación y autenticación robusta.</td>
+          </table>
+
+
+   </section> 
+
+   <section class="seccion-recuperaion">
+
+    <h1>Recuperacion de datos</h1>
+
+      <img src="imagenes\imagen9.jpeg"/>
+
+
+  <p>El servicio de recuperación de datos está diseñado para asistir a nuestros clientes en la restauración de información valiosa que ha sido perdida o se encuentra inaccesible en sus dispositivos. A través de herramientas especializadas como Recuva, examinamos discos duros, unidades USB y tarjetas de memoria para localizar archivos eliminados accidentalmente, dañados o afectados por errores del sistema. Nuestro enfoque incluye una evaluación inicial para determinar la posibilidad de recuperación, seguida de un proceso detallado para restaurar los datos en su formato original. También proporcionamos orientación para prevenir futuras pérdidas, empoderando a los usuarios con consejos prácticos sobre respaldo y mantenimiento. Nuestro objetivo es siempre salvaguardar lo más valioso: sus datos. 
+
+El servicio de recuperación de datos está diseñado para asistir a nuestros clientes en la restauración de información valiosa que ha sido perdida o se encuentra inaccesible en sus dispositivos. A través de herramientas especializadas como Recuva, examinamos discos duros, unidades USB y tarjetas de memoria para localizar archivos eliminados accidentalmente, dañados o afectados por errores del sistema. Nuestro enfoque incluye una evaluación inicial para determinar la posibilidad de recuperación, seguida de un proceso detallado para restaurar los datos en su formato original. También proporcionamos orientación para prevenir futuras pérdidas, empoderando a los usuarios con consejos prácticos sobre respaldo y mantenimiento. Nuestro objetivo es siempre salvaguardar lo más valioso: sus datos.<a href="https://recoverit.wondershare.net/es/ad/data-recovery.html?msclkid=060323c8807113569ab0441427c49f9e&utm_source=bing&utm_medium=cpc&utm_campaign=DataR_SS_%E5%A4%9A%E8%AF%AD%E8%A8%80_ES_Function_Pid(4202)_Mexico_&utm_term=instalar%20data%20recovery&utm_content=Function%3A%20Data">RECOVERY</a></p>
+   
+   <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          
+      
+          <td colspan="4"align="center "><b>NUESTRO PROVEDOR<b></td>    
+     </tr>
+     <tr>
+           
+           <td align="center">software:</td>
+           <td align="center">Descripcion:</td>
+          <td align="center">caracteristicas:</td>
+          <td align="center">Precio calidad:</td>
+          
+      </tr>
+      <tr>
+           <td align="center"><img src="imagenes\imagen10.jpeg"/> </td>
+           <td align="center">Data recovery es un software diseñado para restaurar datos perdidos o inaccesibles. Ayuda a recuperar archivos eliminados accidentalmente, datos dañados o afectados por errores del sistema, utilizando potentes algoritmos que garantizan eficiencia y resultados confiables, ideal para diversos dispositivos y situaciones..</td>
+          <td align="center">El software de recuperación de datos permite restaurar archivos perdidos o inaccesibles desde diversos dispositivos. Ofrece escaneo rápido y profundo, vista previa de archivos y compatibilidad con múltiples formatos, proporcionando soluciones confiables para proteger información importante frente a pérdidas accidentales o daños.</td>
+          <td align="center">El software combina efectividad, accesibilidad y precios competitivos, con opciones gratuitas como Recuva para necesidades básicas y herramientas avanzadas como EaseUS Data Recovery Wizard desde $70 USD anuales, proporcionando calidad y confiabilidad en la recuperación de datos importantes.</td>
+   
+          </table>
+
+    </section> 
+
+
+    <section class="seccion-correo">
+
+   <h1>Soporte para correo electronico</h1>
+
+     <img src="imagenes\imagen11.jpeg"/> 
+
+   <p>El servicio de soporte para correo electrónico está diseñado para resolver problemas relacionados con la configuración, funcionalidad y seguridad de las cuentas de correo electrónico de nuestros clientes. Este servicio abarca desde la configuración inicial de cuentas en plataformas populares como Gmail, Outlook, Yahoo, entre otras, hasta la resolución de problemas avanzados que puedan surgir en el uso diario.
+
+Entre las principales áreas de enfoque se incluye la recuperación de contraseñas olvidadas, solución de errores de inicio de sesión y asistencia para la sincronización de correos en múltiples dispositivos. Además, ayudamos a optimizar la configuración de filtros, carpetas y reglas para una mejor gestión de los correos, proporcionando una experiencia de uso más eficiente y ordenada.
+
+También prestamos especial atención a la seguridad de las cuentas, ofreciendo asesoramiento sobre cómo protegerlas contra ataques de phishing, correos maliciosos y accesos no autorizados. Nuestro servicio incluye la implementación de medidas como la autenticación en dos pasos y la recomendación de prácticas seguras para el manejo de información confidencial.
+
+Todo esto se realiza de forma personalizada, asegurándonos de que cada cliente reciba la orientación adecuada según su nivel de conocimiento y necesidades específicas. Nuestro objetivo es garantizar que el correo electrónico sea una herramienta confiable y funcional, permitiendo a los usuarios comunicarse de manera segura y eficiente en su vida personal y profesional. Con este soporte, buscamos empoderar a los clientes para que dominen completamente el uso de sus cuentas de correo electrónico.</p>
+
+   
+   <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>TE OFRECEMOS ESTE SERVICIO PARA<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Dificultades para acceder a la cuenta:</td>
+           <td align="center">Problemas de sincronizacion:</td>
+          <td align="center">Errores en la configuracion de cuenta:</td>
+          <td align="center">Seguridad y proteccion de cuenta:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">Las dificultades para acceder a la cuenta ocurren cuando el usuario no recuerda su contraseña, enfrenta bloqueos por múltiples intentos fallidos o sospecha de accesos no autorizados. Estos problemas pueden generar frustración y afectar la productividad, requiriendo asistencia para restaurar el acceso y garantizar la seguridad de la cuenta..</td>
+           <td align="center">Los problemas de sincronización ocurren cuando los correos no se actualizan correctamente entre dispositivos o aplicaciones, causando retrasos, carpetas faltantes o errores en contactos y calendarios. Generalmente, se deben a configuraciones incorrectas de IMAP, Exchange o a errores en el software, afectando la eficiencia y productividad del usuario.</td>
+          <td align="center">Los errores de configuración de cuentas de correo electrónico surgen por datos incorrectos de servidores IMAP, POP o SMTP, problemas con autenticación, o configuraciones incompatibles de puertos. Estos fallos impiden la conexión y uso adecuado del correo, requiriendo ajustes técnicos para garantizar funcionalidad y acceso sin interrupciones..</td>
+          <td align="center">La seguridad y protección de cuentas de correo previenen accesos no autorizados y ataques como phishing. Incluyen autenticación en dos pasos, contraseñas seguras, y detección de correos maliciosos. Estas medidas garantizan privacidad, reducen riesgos de violaciones y protegen datos sensibles para mantener la integridad y funcionalidad de la cuenta..</td>
+   
+          </table>
+
+
+
+
+    </section>
+
+
+    <section class="seccion-gestion">
+
+     <h1>Gestion de archivos en la nube</h1>
+
+
+    
+     <img src="imagenes\imagen12.jpeg"/> 
+
+
+    <p>La gestión de archivos en la nube ofrece almacenamiento seguro y acceso instantáneo a tus documentos desde cualquier dispositivo con Internet. Este servicio organiza y protege tus archivos con cifrado y copias de seguridad automáticas. Además, facilita la colaboración al permitir compartir y editar documentos en tiempo real.<br/></br>
+
+Gracias a su interfaz intuitiva, puedes subir, clasificar y encontrar tus archivos de manera rápida. Incluye funciones avanzadas como control de versiones y permisos personalizados, asegurando un manejo eficiente y privado de tu información. Ideal para uso personal o profesional, optimiza la organización y garantiza la seguridad de tus datos valiosos.</p>
+       
+
+  
+<table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>TE OFRECEMOS ESTE SERVICIO PARA<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Recuperación de archivos eliminados:</td>
+           <td align="center">Problemas de sincronización:</td>
+          <td align="center">Acceso a la cuenta bloqueado:</td>
+          <td align="center">Problemas de permisos o compartición:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">Asistencia para recuperar archivos borrados accidentalmente, ya sea a través de herramientas de recuperación integradas o copias de seguridad.</td>
+           <td align="center">Solución de fallos en la sincronización entre dispositivos, como archivos que no se actualizan o no aparecen en otros equipos.</td>
+          <td align="center">Ayuda para restablecer contraseñas, resolver problemas de autenticación de dos factores o desbloquear cuentas de usuario..</td>
+          <td align="center">Configuración de permisos de acceso para garantizar que los archivos solo sean visibles o editables por los destinatarios autorizados</td>
+   
+          </table>
+
+       
+       </section> 
+
+    <section class="seccion-dispositivos">
+  
+    <h1>Configuracion de impresoras y dispocitivos</h1>
+    
+      
+    
+     <img src="imagenes\imagen13.jpeg"/> 
+
+      <p>El servicio de configuración de impresoras y dispositivos se enfoca en la instalación, conexión y optimización de hardware periférico para garantizar su correcto funcionamiento con computadoras y redes. Incluye la instalación de controladores adecuados, configuración de parámetros específicos y ajuste de preferencias de impresión, escaneo u otras funciones del dispositivo.</br></br>
+
+Este servicio resuelve problemas como incompatibilidades entre sistemas, configuraciones incorrectas o dificultades para conectar dispositivos a través de Wi-Fi, USB u otros métodos. También se asegura de que las funciones avanzadas, como la impresión a doble cara o la digitalización en alta calidad, estén correctamente habilitadas.</br></br>
+
+Es ideal tanto para entornos domésticos como empresariales, brindando soporte técnico que garantiza una experiencia sin complicaciones. Además, fomenta la productividad al permitir que los usuarios aprovechen al máximo las capacidades de sus dispositivos, reduciendo interrupciones relacionadas con configuraciones deficientes o mal optimizadas. Una solución práctica y eficiente.</p>
+
+
+
+   
+<table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>TE OFRECEMOS ESTE SERVICIO PARA<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Instalación y conexión:</td>
+           <td align="center">Configuración de parámetros:</td>
+          <td align="center">Resolución de errores comunes:</td>
+          <td align="center">Configuración de impresión en red:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">Asistencia para instalar controladores y conectar la impresora a la computadora o red, ya sea por cable USB o Wi-Fi.</td>
+           <td align="center">Guía para ajustar opciones como calidad de impresión, tamaño de papel, impresión a doble cara o manejo de bandejas.</td>
+          <td align="center">dentificación y solución de problemas como atascos de papel, errores de conexión o mensajes de "sin tinta".</td>
+          <td align="center">Ayuda para integrar la impresora en una red compartida, permitiendo el acceso desde varios dispositivos.
+</td>
+   
+          </table>
+   
+
+      </section>
+
+
+
+    <section class="seccion-oficina">
+
+     <h1>Soporte para software de oficina</h1>
+
+
+        
+     <img src="imagenes\imagen14.jpeg"/> 
+
+
+      <p><i>El servicio de Soporte para software de oficina se especializa en ayudar a usuarios individuales y empresariales a resolver problemas y mejorar su experiencia con herramientas como procesadores de texto, hojas de cálculo y programas de presentación. Entre sus funciones principales, incluye la asistencia para la instalación, configuración, actualización y solución de problemas técnicos, así como soporte en tiempo real para incidentes urgentes. Además, ofrece sesiones de capacitación personalizadas, recursos educativos como tutoriales y guías de uso, y recomendaciones para optimizar la productividad. El servicio opera a través de múltiples canales: llamadas, chats y correos electrónicos, asegurando respuestas ágiles y personalizadas. Con un enfoque centrado en el usuario, garantiza que los clientes aprovechen al máximo sus programas, fomentando un uso eficiente y sin interrupciones. La meta es no solo solucionar problemas, sino también empoderar a los usuarios con el conocimiento necesario para manejar el software de manera autónoma y eficaz</i>.</br></br> Compra Office de la pagina oficial<a href="https://www.microsoft.com/es-mx/microsoft-365/get-office-and-microsoft-365-oem-download-page?msockid=1b1a37802019680524d523f821116933">office</a></p>
+
+
+
+         <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          
+      
+          <td colspan="4"align="center "><b>POR EJEMPLO PODEMOS DAR SOPORTE PARA<b></td>    
+     </tr>
+     <tr>
+           
+           <td align="center">software:</td>
+           <td align="center">Descripcion:</td>
+          <td align="center">caracteristicas:</td>
+          <td align="center">QUE PODEMOS HACER POR TI:</td>
+          
+      </tr>
+      <tr>
+           <td align="center"><img src="imagenes\imagen15.jpeg"/> </td>
+           <td align="center">Office es una suite de productividad desarrollada por Microsoft que incluye herramientas esenciales como Word, Excel, PowerPoint y Outlook. Facilita la creación, edición y gestión de documentos, hojas de cálculo, presentaciones y correos electrónicos. Es ampliamente utilizada en entornos laborales, educativos y personales, ofreciendo accesibilidad y colaboración en dispositivos y plataformas diversas.</td>
+          <td align="center">Office destaca por su facilidad de uso, accesibilidad en múltiples dispositivos, integración con servicios en la nube como OneDrive, herramientas de colaboración en tiempo real y una amplia gama de aplicaciones. Estas incluyen Word, Excel, PowerPoint, Outlook y Teams, diseñadas para satisfacer necesidades personales, educativas y profesionales, promoviendo productividad y eficiencia.</td>
+          <td align="center">Te ofrecemos la guía necesaria para instalar, activar, actualizar y configurar Office de manera sencilla. Nuestro soporte incluye instrucciones paso a paso, asistencia personalizada y recursos en línea para garantizar un proceso eficiente. Además, podrás acceder a herramientas que optimizan el rendimiento y la productividad en todos tus dispositivos.</td>
+   
+          </table>
+
+
+    </section>
+
+
+     <section class="seccion-controladores">
+
+
+    <h1>Actualizacion de software y controladores</h1>
+ 
+      <img src="imagenes\imagen16.png"/> 
+
+
+   <p>El servicio de actualización de software y controladores se encarga de mantener el sistema operativo y los dispositivos conectados a tu computadora funcionando de manera óptima. Este servicio busca, descarga e instala versiones más recientes del software y controladores necesarios para el funcionamiento de hardware como impresoras, tarjetas gráficas y otros periféricos. Las actualizaciones suelen incluir mejoras de rendimiento, nuevas funciones y parches de seguridad que protegen contra vulnerabilidades. Mantener los controladores y software actualizados asegura compatibilidad y estabilidad en el sistema, previniendo errores y problemas de funcionamiento. Es esencial para prolongar la vida útil y eficiencia de tu equipo.           Descarga gratis <a href="https://www.iobit.com/es/driver-booster.php">DRIVER BOSTER</a></p>
+
+
+
+
+       <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          
+      
+          <td colspan="4"align="center "><b>POR EJEMPLO PODEMOS DAR SOPORTE PARA<b></td>    
+     </tr>
+     <tr>
+           
+           <td align="center">software:</td>
+           <td align="center">Descripcion:</td>
+          <td align="center">caracteristicas:</td>
+          <td align="center">QUE PODEMOS HACER POR TI:</td>
+          
+      </tr>
+      <tr>
+           <td align="center"><img src="imagenes\imagen17.png"/> </td>
+           <td align="center">Driver Booster es una herramienta gratuita que actualiza automáticamente los controladores de dispositivos en Windows. Optimiza el rendimiento del PC, reduce errores y fallos, y mejora la experiencia de usuario al mantener los controladores actualizados y compatibles con el sistema.</td>
+          <td align="center">Driver Booster ofrece actualización automática de controladores, mejora el rendimiento del sistema, escanea rápidamente dispositivos, corrige errores, optimiza juegos, reduce problemas de compatibilidad, crea copias de seguridad de controladores y es fácil de usar con una interfaz intuitiva para usuarios de Windows.</td>
+          <td align="center">Puedes confiar en Driver Booster para actualizar tus controladores fácilmente. Solo necesitas instalarlo, permitir que escanee tu sistema y seleccionar los controladores que deseas actualizar. Con su interfaz simple, mantendrás tu PC optimizada y funcionando sin problemas rápidamente.</td>
+
+    
+          </table>
+    </section>
+
+
+      <section class="seccion-copias">
+       
+      <h1>Configuracion de copias de segurida</h1>
+
+       <img src="imagenes\imagen18.jpeg"/> 
+     
+     <p>La configuración de copias de seguridad es el proceso de establecer un sistema para guardar y proteger datos importantes ante posibles pérdidas o daños. Este servicio implica seleccionar qué archivos o información respaldar, elegir una ubicación segura (como almacenamiento en la nube, un disco duro externo o una red segura) y determinar la frecuencia del respaldo (diaria, semanal, etc.). Además, se configuran herramientas automatizadas para que las copias se realicen sin intervención manual. Este procedimiento es crucial para garantizar la continuidad de la información en caso de fallos técnicos, ciberataques o errores humanos, brindando tranquilidad y seguridad a los usuarios.</br> Descarga gratis  <a href="https://es.easeus.com/backup-recovery/descargar-easeus-todo-backup.html"> EaseUS Todo Backup </a></p>
+
+      
+       <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          
+      
+          <td colspan="4"align="center "><b>POR EJEMPLO PODEMOS DAR SOPORTE PARA<b></td>    
+     </tr>
+     <tr>
+           
+           <td align="center">software:</td>
+           <td align="center">Descripcion:</td>
+          <td align="center">caracteristicas:</td>
+          <td align="center">QUE PODEMOS HACER POR TI:</td>
+          
+      </tr>
+      <tr>
+           <td align="center"><img src="imagenes\imagen19.jpeg"/> </td>
+           <td align="center">EaseUS Todo Backup es un software de respaldo confiable y versátil que permite proteger datos creando copias de seguridad automáticas o manuales. Respalda archivos, discos, sistemas operativos y más, con opciones fáciles de restauración y almacenamiento en la nube.</td>
+          <td align="center">EaseUS Todo Backup incluye características como copias de seguridad automáticas, respaldo incremental, clonación de discos, restauración rápida, cifrado de datos, soporte para almacenamiento en la nube y compatibilidad con Windows. Ofrece una interfaz amigable para usuarios principiantes y avanzados.</td>
+          <td align="center">Podemos guiarte para usar EaseUS Todo Backup de manera sencilla: desde instalarlo, configurar tus copias de seguridad y programarlas automáticamente, hasta restaurar datos cuando lo necesites. Te ayudamos paso a paso para proteger tu información.</td>
+
+    
+          </table>
+       
+
+
+    </section>
+
+
+<section class="seccion-Team">
+
+      <h1>Acceso remoto mediante TeamViewer</h1>
+  
+       <img src="imagenes\imagen20.jpeg"/>
+
+
+      <p>Brindamos acceso remoto a través de TeamViewer para que puedas conectarte de manera segura y sencilla a tus dispositivos desde cualquier lugar. Te guiamos paso a paso, desde la instalación hasta el uso, asegurándonos de que aproveches sus herramientas avanzadas, como transferencia de archivos, configuración de accesos no supervisados y soporte en tiempo real. Nos enfocamos en garantizar que trabajes o colabores a distancia con comodidad y confianza, mientras protegemos tus conexiones mediante cifrado de extremo a extremo. Estamos aquí para que tengas una experiencia eficiente y sin complicaciones con este potente software de acceso remoto. Descarga gratis <a href="https://www.teamviewer.com/latam/download/windows/?msockid=1b1a37802019680524d523f821116933">TeamViewer</a></p>
+
+
+
+         <audio controls>
+  <source src="Audios/Audio2.mp3" >
+   </audio>
+
+           <table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          
+      
+          <td colspan="4"align="center "><b>POR EJEMPLO PODEMOS DAR SOPORTE PARA<b></td>    
+     </tr>
+     <tr>
+           
+           <td align="center">software:</td>
+           <td align="center">Descripcion:</td>
+          <td align="center">caracteristicas:</td>
+          <td align="center">QUE PODEMOS HACER POR TI:</td>
+          
+      </tr>
+      <tr>
+           <td align="center"><img src="imagenes\imagen21.jpeg"/> </td>
+           <td align="center">TeamViewer es un software de acceso remoto que facilita la conexión segura entre dispositivos desde cualquier lugar. Ofrece herramientas como transferencia de archivos, videollamadas para soporte en tiempo real y accesos no supervisados, con una interfaz intuitiva y cifrado avanzado.</td>
+          <td align="center">TeamViewer permite acceso remoto con funciones como transferencia de archivos, videollamadas para soporte técnico, accesos no supervisados, compatibilidad entre sistemas operativos y cifrado de extremo a extremo. Su interfaz intuitiva garantiza facilidad de uso para trabajo y colaboración a distancia..</td>
+          <td align="center">Ofrecemos mantenimiento de software mediante TeamViewer, asegurando la optimización y solución de problemas a distancia. Con acceso remoto seguro, realizamos actualizaciones, diagnósticos y soporte técnico personalizado para garantizar el funcionamiento eficiente de tus sistemas, todo sin complicaciones ni interrupciones.</td>
+
+    
+          </table>
+
+
+ 
+       
+  </section>
+
+
+
+    <section class="seccion-Capacitacion">
+
+
+   <h1>Capacitacion y consultoria tecnica</h1>
+     
+
+       <img src="imagenes\imagen22.jpeg"/>
+
+
+
+    <p>La capacitación y consultoría técnica ofrece sesiones prácticas para aprender el uso eficiente de computadoras y herramientas tecnológicas. Este servicio está diseñado para enseñar desde las funciones básicas de un PC hasta el manejo de software especializado, adaptándose a las necesidades de cada usuario o empresa. Además, proporciona asesoramiento personalizado para resolver problemas técnicos, optimizar procesos y mejorar la productividad. Incluye análisis de necesidades, orientación sobre la implementación de soluciones y soporte estratégico para maximizar los recursos tecnológicos. Es ideal para quienes desean adquirir confianza en el uso de la tecnología y alcanzar sus objetivos de manera eficiente.</p>
+
+
+     
+<table border="4" bgcolor="#ffd700">
+   
+     
+     <tr>
+          <td colspan="4"align="center "><b>TE OFRECEMOS ESTE SERVICIO PARA<b></td>
+          
+     </tr>
+     <tr>
+           
+           <td align="center">Uso del sistema operativo:</td>
+           <td align="center">Manejo de Microsoft Office:</td>
+          <td align="center">Navegación en internet:</td>
+          <td align="center">Seguridad informática básica:</td>
+          
+      </tr>
+      <tr>
+           <td align="center">Aprende a navegar, configurar y optimizar sistemas como Windows o macOS. Gestiona archivos, carpetas y aplicaciones con facilidad para un uso eficiente del equipo.</td>
+           <td align="center">Domina herramientas como Word, Excel y PowerPoint, creando documentos, hojas de cálculo y presentaciones profesionales que aumentan la productividad.</td>
+          <td align="center">Descubre cómo buscar información, utilizar navegadores y administrar correos electrónicos de forma segura y eficaz, mejorando tu experiencia en línea.</td>
+          <td align="center">Aprende a proteger tus datos mediante antivirus, gestión de contraseñas y buenas prácticas para evitar amenazas cibernéticas.</td>
+   
+          </table>
+   
+ 
+             
+
+
+     </section>
+
+      <section class="seccion-acesores">
+
+
+    <h1>Acesores disponibles</h1>
+
+     <img src="imagenes\imagen24.jpeg"/>
+
+
+
+   <p>"Estamos aquí para ayudarte. Puedes ponerte en contacto con nuestros diferentes asesores por correo electrónico en cualquier momento. Cada uno de nuestros especialistas está dedicado a resolver tus dudas y brindarte el mejor servicio posible. No importa el tema, ya sea soporte técnico, información sobre productos o cualquier otra consulta, estaremos encantados de asistirte. Envía tu mensaje y uno de nuestros asesores se pondrá en contacto contigo lo antes posible. Para nosotros, tu satisfacción es lo más importante, y estamos comprometidos en ofrecerte una experiencia personalizada y eficiente. ¡Esperamos saber de ti pronto!"</p>
+
+
+
+
+    <ul>
+
+
+    <li><p>Contacta a <a href=mailto:"yuridiapuente1@cecyteslp.edu.mx">YURIDIA PUENTE VILLELA</a></p></li>
+
+
+      <li><p>Contacta a <a href=mailto:"josearriaga29@cecyteslp.edu.mx">URIEL ARRIAGA NIÑO</a></p></li>
+
+      <li><p>Contacta a <a href=mailto:"joselinespiricueta@cecyteslp.edu.mx">JOSELIN ESPIRICUETA</a></p></li>
+
+
+     <li><p>Contacta a <a href=mailto:"luzvelazquez12@cecyteslp.Edu.mx">LUZ CLARITA</a></p></li>
+
+
+     <li><p>Contacta a <a href=mailto:"reynaalvarado1@cecyteslp.edu.com">MONSERRAT ALVARADO</a></p></li>
+    </ul>
+
+     </section>
+
+
+
+
+
+
+
+    
+
+
+    
+      
+
+      
+
+     
+
+                     
+       
+         
+</body>
+
+</html>
